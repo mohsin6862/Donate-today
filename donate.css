@@ -1,3 +1,133 @@
-*{
+* {
     margin: 0px;
+}
+
+.head {
+
+    width: 100%;
+    height: 670px;
+
+    background-image: url('/images/images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+.head-title {
+    display: flex;
+    width: 826px;
+    height: 160px;
+    position: relative;
+    top: 250px;
+    left: 307px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+   
+
+
+}
+
+.head-description {
+    display: flex;
+    width: 690px;
+    height: 60px;
+    position: relative;
+    top: 280px;
+    left: 352px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    text-align: center;
+
+}
+
+.btn {
+    position: relative;
+    top: 280px;
+    left: 630px;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+
+
+}
+
+
+/* donate today section */
+
+.donate-today-title{
+
+    position: relative;
+    top: 100px;
+    left: 550px;
+    font-size: 28px;
+    font-family:sans-serif;
+
+
+}
+.donate-today-description{
+    width: 680px;
+    height: 55px;
+    position: relative;
+    top: 130px;
+    left: 375px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.donate-box-container{
+    display: flex;
+}
+
+.donate-box{
+    display: flex;
+    position: relative;
+    left: 320px;
+    top: 150px ;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.donate-box:hover{
+    border: 1px solid red;
+}
+
+.donate-other{
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
+.hr{
+    position: relative;
+    left: 350px;
+    top: 210px;
+
+}
+.btn-2{
+    position: relative;
+    top: 250px;
+    left: 610px;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+
 }
